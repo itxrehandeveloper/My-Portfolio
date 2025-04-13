@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: none;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-left img {
+    width: 55px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1.5px;
+    margin-left: 10px;
+}
+
+.nav-left li {
+    padding: 18px 20px;
+    list-style: none;
+}
+
+.nav-left li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-right input {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.nav-right button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+
+/*Main section styling*/
+
+#main {
+    width: 90%;
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 18px;
+    border-radius: 7px;
+}
+
+.main-left {
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.main-left h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+    color: white;
+    margin-top: 150px;
+}
+
+.main-left p {
+    color: white;
+    padding: 7px;
+    margin-left: 27px;
+}
+
+.buttons {
+    margin-left: 33px;
+    height: 70px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.buttons button {
+    border: 2px solid white;
+    width: 140px;
+    height: 90%;
+    color: white;
+    font-weight: 500;
+}
+
+.buttons button:hover {
+    border: 2px solid white;
+    width: 140px;
+    height: 90%;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    background-color: white;
+}
+
+.watch {
+    margin-left: 50px;
+}
+
+.main-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-right img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+/*Section styling*/
+
+.section{
+    width: 90%;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    height: 460px;
+}
+
+.section-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-right{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.section-right h1{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.section-right p{
+    padding: 2px 10px;
+}
+
+/*Footer Styling*/
+
+footer{
+    width: 100%;
+    height: 350px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+}
+
+footer input{
+    width: 80%;
+    padding: 10px;
+    margin-left: 103px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+footer button{
+    width: 80%;
+    padding: 10px;
+    margin-left: 103px;
+    margin-top: 20px;
+    border: 2px solid white;
+    color: white;
+}
+
+footer button:hover{
+    width: 80%;
+    padding: 10px;
+    margin-left: 103px;
+    margin-top: 20px;
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+footer h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
